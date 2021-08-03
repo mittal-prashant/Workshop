@@ -13,6 +13,7 @@ body{
     background-attachment: fixed;
     animation: back 50s infinite;
     animation-fill-mode: forwards;
+    animation-delay: 5s;
 }
 @keyframes welcome {
     0%{
@@ -24,43 +25,43 @@ body{
     }
 }
 @keyframes back {
-    10%{
+    0%{
         background-image: url("/Background\ Images/1.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
-    }20%{
+    }10%{
         background-image: url("/Background\ Images/2.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
-    }30%{
+    }20%{
         background-image: url("/Background\ Images/3.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
-    }40%{
+    }30%{
         background-image: url("/Background\ Images/4.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
-    }50%{
+    }40%{
         background-image: url("/Background\ Images/5.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
-    }60%{
+    }50%{
         background-image: url("/Background\ Images/6.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
-    }70%{
+    }60%{
         background-image: url("/Background\ Images/7.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
-    }80%{
+    }70%{
         background-image: url("/Background\ Images/8.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
-    }90%{
+    }80%{
         background-image: url("/Background\ Images/9.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
-    }100%{
+    }90%{
         background-image: url("/Background\ Images/10.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
