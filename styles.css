@@ -4,11 +4,11 @@ div{
     text-align: center;
 }
 #welcome{
-    font-size: 25px;
+    font-size: 50px;
     animation:welcome 2s 1;
 }
 #name{
-    
+
 }
 body{
     background-image: url("pexels-pixabay-71116.jpg");
@@ -19,8 +19,8 @@ body{
     0%{
         font-size: 25px;
     }50%{
-        font-size: 50px;
+        font-size: 75px;
     }100%{
-        font-size: 25px;
+        font-size: 50px;
     }
 }
