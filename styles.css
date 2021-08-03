@@ -1,0 +1,26 @@
+div{
+    color: white;
+    text-transform:uppercase;
+    text-align: center;
+}
+#welcome{
+    font-size: 25px;
+    animation:welcome 2s 1;
+}
+#name{
+    
+}
+body{
+    background-image: url("pexels-pixabay-71116.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+@keyframes welcome {
+    0%{
+        font-size: 25px;
+    }50%{
+        font-size: 50px;
+    }100%{
+        font-size: 25px;
+    }
+}
