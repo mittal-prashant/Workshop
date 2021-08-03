@@ -1,5 +1,5 @@
 div{
-    color: white;
+    color: black;
     text-transform:uppercase;
     text-align: center;
 }
@@ -8,7 +8,7 @@ div{
     animation:welcome 2s 1;
 }
 body{
-    background-image: url("Background\ Images/1.jpg");
+    background-image: url("Background/1.jpg"), url("Background/");
     background-size: 100% 100%;
     background-attachment: fixed;
     animation: back 50s infinite;
@@ -26,43 +26,43 @@ body{
 }
 @keyframes back {
     0%{
-        background-image: url("/Background\ Images/1.jpg");
+        background-image: url("Background/1.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }10%{
-        background-image: url("/Background\ Images/2.jpg");
+        background-image: url("Background/2.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }20%{
-        background-image: url("/Background\ Images/3.jpg");
+        background-image: url("Background/3.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }30%{
-        background-image: url("/Background\ Images/4.jpg");
+        background-image: url("Background/4.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }40%{
-        background-image: url("/Background\ Images/5.jpg");
+        background-image: url("Background/5.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }50%{
-        background-image: url("/Background\ Images/6.jpg");
+        background-image: url("Background/6.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }60%{
-        background-image: url("/Background\ Images/7.jpg");
+        background-image: url("Background/7.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }70%{
-        background-image: url("/Background\ Images/8.jpg");
+        background-image: url("Background/8.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }80%{
-        background-image: url("/Background\ Images/9.jpg");
+        background-image: url("Background/9.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }90%{
-        background-image: url("/Background\ Images/10.jpg");
+        background-image: url("Background/10.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }
