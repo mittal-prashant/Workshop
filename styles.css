@@ -17,7 +17,7 @@ body{
 }
 @keyframes welcome {
     0%{
-        font-size: 25px;
+        font-size: 50px;
     }50%{
         font-size: 75px;
     }100%{
