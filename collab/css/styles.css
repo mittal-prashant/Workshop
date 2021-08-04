@@ -19,3 +19,14 @@
   background-color: #EEEEEE;
   padding: 2% ;
 }
+hr{
+  color: blue;
+    border: dotted blue 6px;
+    border-bottom: none;;
+}
+h1{
+  font-family: 'Courgette', cursive;
+}
+h3{
+  font-family: 'Caveat', cursive;
+}
