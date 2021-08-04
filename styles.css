@@ -5,10 +5,12 @@
     text-transform:uppercase;
     text-align: center;
     border-radius: 2vw;
+    box-shadow: 2vh 2vh 2vh black;
 }
 #welcome{
     padding: 2vw;
     background: linear-gradient(to right,red, red,black,black,red,black,black,red,red);
+    text-shadow: 0.5vh 0.5vh 1vh black;
     font-size: 6vw;
     line-height: 5vw;
     font-family: 'Indie Flower', cursive;
@@ -29,6 +31,7 @@
 }
 #link{
     background: linear-gradient(to left,red,black,red);
+    box-shadow: 2vh 2vh 2vh black;
     color: white;
     border-radius: 0.5vw;
     border-style: solid;
