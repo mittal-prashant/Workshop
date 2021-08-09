@@ -21,12 +21,71 @@
 }
 hr{
   color: blue;
-    border: dotted blue 6px;
-    border-bottom: none;;
+  border: dotted blue 6px;
+  border-bottom: none;;
 }
 h1{
   font-family: 'Courgette', cursive;
 }
 h3{
   font-family: 'Caveat', cursive;
+}
+.heading{
+  color: hotpink;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.index1{
+  padding-top: 0vw;
+  margin-left: 20vw;
+  width: 20vw;
+  font-size: 2vw;
+  text-align: center;
+  display: inline-block;
+}
+.image1{
+  margin-top: 10vw;
+  display: inline-block;
+  margin-left: 10vw;
+  width: 30vw;
+  height: 40vw;
+  background-image: url("/Background/1.jpg");
+  background-size:cover ;
+  background-repeat: no-repeat;
+  border-radius: 1vw;
+  border-color:fuchsia;
+  border-style:solid;
+}
+.image2{
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  display: inline-block;
+  margin-left: 15vw;
+  width: 30vw;
+  height: 40vw;
+  background-image: url("/Background/1.jpg");
+  background-size:cover ;
+  background-repeat: no-repeat;
+  border-radius: 1vw;
+  border-color:fuchsia;
+  border-style:solid;
+}
+.index2{
+  padding-top: 0vw;
+  margin-left: 10vw;
+  width: 20vw;
+  font-size: 2vw;
+  text-align: center;
+  display: inline-block;
+}
+.main{
+  background-color: white;
+}
+.insta{
+  height: 30vw;
+  background-color: grey;
+}
+body{
+  background:linear-gradient(white) ;
+  background-size: cover;
+  background-attachment: fixed;
 }
