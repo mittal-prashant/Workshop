@@ -1,91 +1,94 @@
-.welding{
-  background-color: #EEEEEE;
+#first{
+    padding: 2vw;
+    margin: 20vw;
+    background:rgba(242, 243, 245, 0.5);
+    text-transform:uppercase;
+    text-align: center;
+    border-radius: 2vw;
+    box-shadow: 2vh 2vh 2vh black;
 }
-.car{
-  background-color: #787A91;
+#welcome{
+    padding: 2vw;
+    background: linear-gradient(to right,red, red,black,black,red,black,black,red,red);
+    text-shadow: 0.5vh 0.5vh 1vh black;
+    font-size: 6vw;
+    line-height: 5vw;
+    font-family: 'Indie Flower', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.w{
-  width: 50%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+#name{
+    background: linear-gradient(black,red,black);
+    font-size: 3vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-#welding-heading{
-  padding: 5% 5%;
+#second{
+    background: linear-gradient(black,red,black);
+    font-size: 3vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.b{
-  padding: 3% 0% 3% 1%;
-}
-#foot{
-  background-color: #EEEEEE;
-  padding: 2% ;
-}
-hr{
-  color: blue;
-  border: dotted blue 6px;
-  border-bottom: none;;
-}
-h1{
-  font-family: 'Courgette', cursive;
-}
-h3{
-  font-family: 'Caveat', cursive;
-}
-.heading{
-  color: hotpink;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.index1{
-  padding-top: 0vw;
-  margin-left: 20vw;
-  width: 20vw;
-  font-size: 2vw;
-  text-align: center;
-  display: inline-block;
-}
-.image1{
-  margin-top: 10vw;
-  display: inline-block;
-  margin-left: 10vw;
-  width: 30vw;
-  height: 40vw;
-  background-image: url("/Background/1.jpg");
-  background-size:cover ;
-  background-repeat: no-repeat;
-  border-radius: 1vw;
-  border-color:fuchsia;
-  border-style:solid;
-}
-.image2{
-  margin-top: 10vw;
-  margin-bottom: 10vw;
-  display: inline-block;
-  margin-left: 15vw;
-  width: 30vw;
-  height: 40vw;
-  background-image: url("/Background/1.jpg");
-  background-size:cover ;
-  background-repeat: no-repeat;
-  border-radius: 1vw;
-  border-color:fuchsia;
-  border-style:solid;
-}
-.index2{
-  padding-top: 0vw;
-  margin-left: 10vw;
-  width: 20vw;
-  font-size: 2vw;
-  text-align: center;
-  display: inline-block;
-}
-.main{
-  background-color: white;
-}
-.insta{
-  height: 30vw;
-  background-color: grey;
+#link{
+    background: linear-gradient(to left,red,black,red);
+    box-shadow: 2vh 2vh 2vh black;
+    color: white;
+    border-radius: 0.5vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border: black;
+    font-size: 3vw;
+    text-decoration: none;
+
 }
 body{
-  background:linear-gradient(white) ;
-  background-size: cover;
-  background-attachment: fixed;
+    background-image: url("Background/1.jpg"),url("Background/2.jpg"),url("Background/3.jpg"),url("Background/4.jpg"),url("Background/5.jpg"),url("Background/6.jpg"),url("Background/7.jpg"),url("Background/8.jpg"),url("Background/9.jpg"),url("Background/10.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    animation: back 50s infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+@keyframes back {
+    0%{
+        background-image: url("Background/1.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }10%{
+        background-image: url("Background/2.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }20%{
+        background-image: url("Background/3.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }30%{
+        background-image: url("Background/4.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }40%{
+        background-image: url("Background/5.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }50%{
+        background-image: url("Background/6.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }60%{
+        background-image: url("Background/7.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }70%{
+        background-image: url("Background/8.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }80%{
+        background-image: url("Background/9.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }90%{
+        background-image: url("Background/10.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
 }
